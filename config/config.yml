@@ -1,0 +1,19 @@
+application: "smileHugo"
+repository: "github.com/PaleBlueYk/smileHugo-backend"
+port: 3080
+runMode: "debug"  # debug,release,test
+
+logger:
+  level: "debug"
+  filePath: "./logs/run.log"
+  errDetail: false
+  errInResponse: true
+
+database:
+  dbname: "smile_hugo"
+  host: "127.0.0.1"
+  port: 3306
+  username: "root"
+  password: ""
+  showSql: true
+
